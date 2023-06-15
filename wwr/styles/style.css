@@ -118,6 +118,38 @@ p .color {
     border-radius: 7px;
     box-shadow: 5px 5px 10px rgb(26, 26, 26);
 }
+.contactus {
+    min-width: 450px;
+    background-color: antiquewhite;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    box-shadow: 5px 5px 10px rgb(26, 26, 26);
+}
+.contactus h3 {
+    padding-top: 35px;
+    margin-top: 0px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 28px;
+    
+}
+.contactus p {
+    padding-top: 15px;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    
+    
+}
+.contactus img {
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 300px;
+    
+}
+
 #space p {
     color: white;
     margin-top: 5px;
@@ -510,4 +542,10 @@ footer p a:hover {
         font-size: 22px;
     }
     /*End of CSS for rivers page */
+    .contactus img {
+        margin-top: 35px;
+        margin-left: 35px;
+        margin-right: 35px;
+        width: 300px;
+    }
 }
