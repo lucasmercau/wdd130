@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - EnergyFit</title>
+    <link rel="icon" type="image/png" href="images/energyfit-logo-browser.png">
+</head>
+<body>
+<div id="content">
+  <header>
+              <a id="logo_link" href="index.html">
+                  <img class="logo" src="images/energyfit-logo.png" alt="EnergyFit Logo">
+              </a>
+              <nav>
+                  <a href="index.html">Home</a>
+                  <a href="courses.html">Courses</a>
+                  <a href="faq.html">FAQs</a>
+                  <a href="site-plan.html">Site Plan</a>
+                  <a href="contactus.html">Contact Us</a>
+              </nav>
+  </header>
+  <div id="hero">
+    <div id="hero-box">
+        <img id="hero-img" src="images/photo-questions1.jpg" alt="A person raisng a hand">
+    </div>
+    <section id="hero-msg">
+        <h2 class="home-title">We are ready to answer your questions!</h2>
+        <h4>This is a place to answer frequently asked client questions</h4>
+        <div class="button-box">
+            <a class="book" href="#faq-intro">Check our different topics!</a>
+        </div>
+    </section>
+</div>
+  <main>
+    <h2 id="faq-intro">Press a button to see our FAQs</h2>
+
+    <button type="button" onclick="myFunction();myFunction1();myFunction2();myFunction3();">Click Me!</button>
+    <h3>Workout<br>Programs</h3>
+    <button type="button" onclick="myFunctions();myFunctions2();myFunctions3();myFunctions4()">Click Me!</button>
+    <h3>Yoga and<br> Nutrition</h3>
+    <button type="button" onclick="myFunctions0();myFunctions02();myFunctions03();myFunctions04()">Click Me!</button>
+    <h3>Security</h3>
+    <button type="button" onclick="myFunctions10();myFunctions102();myFunctions03();myFunctions04()">Click Me!</button>
+    <h3>FAQs</h3>
+    <p></p><br>
+    <div>
+        <div id="border">
+            <img src="images/photo-questions2.jpg" style="width:350px;" alt="Someone being heard">
+            <h1 id="faq">Press a button to see our FAQs</h1>
+            <p id="demo">With the buttons to choose from, you can access to questions about personalized training programs through the "Workout Programs" button, learn about the benefits of yoga and the role of nutrition in your fitness goals with the "Yoga and Nutrition" button, and learn about the safety and security of your personal information by clicking on the "Security" button. We prioritize your well-being and strive to provide you with a seamless and enriching fitness experience. Explore our website and embark on a rewarding fitness journey with us.</p>
+            <h1 id="faq2" style="display: none;">What are you waiting for!</h1>
+            <p id="demo2"></p>
+        </div>
+    </div>
+  </main>
+  <footer class="river-footer">
+              <div class="social">
+                  <a href="https://facebook.com" target="_blank">
+                      <img src="images/facebook.png" alt="fb icon">
+                  </a>
+                  <a href="https://twitter.com" target="_blank">
+                      <img src="images/twitter.png" alt="twitter icon">
+                  </a>
+                  <a href="https://instagram.com" target="_blank">
+                      <img src="images/instagram.png" alt="instagram icon">
+                  </a>
+              </div> 
+              <p>EnergyFit &copy; 2023 - Lucas Mercau</p>
+              <p><a href="site-plan.html">Site Plan</a></p>
+              <p><a href="contactus.html">Contact Us</a></p>
+              
+  </footer>
+</div>
+<script>
+function myFunction1() { 
+  document.getElementById("faq").innerHTML = "How do I get started with personalized training programs?";
+}
+function myFunction() { 
+  document.getElementById("demo").innerHTML = 'To get started with our personalized training programs, simply navigate to the "Courses" section on our website. There, you will find a variety of programs tailored to different goals and fitness levels. Select the program that aligns with your objectives and follow the instructions to sign up. We will then gather information about your fitness goals, current fitness level, and any specific preferences or limitations you may have to create a customized program just for you.<br>';
+}
+function myFunction3() { 
+  document.getElementById("faq2").innerHTML = "What kind of equipment do I need for the workout programs?";
+  document.getElementById("faq2").style.display='block'
+}
+function myFunction2() { 
+  document.getElementById("demo2").innerHTML = "Our workout programs are designed to be flexible and adaptable to various settings. While some programs may require basic equipment like dumbbells or resistance bands, we also offer bodyweight workouts that require no equipment at all. Each program description will indicate the recommended equipment, but rest assured, we have options available for individuals with different access to fitness equipment.<br><br><br>";
+}
+
+function myFunctions2() { 
+  document.getElementById("faq").innerHTML = "How can yoga benefit my fitness journey?";
+}
+function myFunctions() { 
+  document.getElementById("demo").innerHTML = "Yoga offers a multitude of benefits for your fitness journey. It improves flexibility, builds strength, enhances balance and coordination, and promotes overall mind-body connection. Additionally, yoga can help reduce stress and improve mental well-being. Our yoga course is suitable for all levels, from beginners to experienced practitioners, and our instructors will guide you through each practice to ensure you gain the maximum benefits.";
+}
+function myFunctions4() { 
+  document.getElementById("faq2").innerHTML = "How does nutrition play a role in my fitness goals?";
+  document.getElementById("faq2").style.display='block'
+}
+function myFunctions3() { 
+  document.getElementById("demo2").innerHTML = "Nutrition is a crucial aspect of achieving your fitness goals. Proper nutrition fuels your body, provides essential nutrients, and aids in recovery. Our nutrition experts can guide you on making healthy food choices, creating balanced meal plans, and addressing specific dietary requirements or goals. By combining proper nutrition with your fitness regimen, you can optimize your results and support your overall well-being.";
+}
+
+function myFunctions02() { 
+  document.getElementById("faq").innerHTML = "Is my personal information safe and secure on the site?";
+}
+function myFunctions0() { 
+  document.getElementById("demo").innerHTML = "Yes, the privacy and security of your personal information are of utmost importance to us. We adhere to strict data protection policies and ensure that all personal information provided is treated with confidentiality. We take appropriate measures to safeguard your data and use it only for the purposes outlined in our privacy policy. Your information is in safe hands.";
+}
+function myFunctions04() { 
+  document.getElementById("faq2").innerHTML = "";
+}
+function myFunctions03() { 
+  document.getElementById("demo2").innerHTML = "";
+}
+function myFunctions102() { 
+  document.getElementById("faq").innerHTML = "Press a button to see our FAQs";
+}
+function myFunctions10() { 
+  document.getElementById("demo").innerHTML = 'With the buttons to choose from, you can access to questions about personalized training programs through the "Workout Programs" button, learn about the benefits of yoga and the role of nutrition in your fitness goals with the "Yoga and Nutrition" button, and learn about the safety and security of your personal information by clicking on the "Security" button. We prioritize your well-being and strive to provide you with a seamless and enriching fitness experience. Explore our website and embark on a rewarding fitness journey with us.';
+}
+function myFunctions05() { 
+  document.getElementById("borber").innerHTML = "";
+}
+</script>
+
+</body>
+</html>
