@@ -285,7 +285,7 @@ hr {
     font-size: 1.2em;
     margin-bottom: 10%;
 }
-#hero-msg-faq h1, #hero-msg-faq h4 {
+#hero-msg-faq h1, #hero-msg-faq h4, #hero-msg-faq h2 {
     text-align: center;   
 }
 #hero-msg-faq h1 {
